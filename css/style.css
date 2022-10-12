@@ -31,7 +31,199 @@
 
 @media (min-width: 375px) and (max-width: 991px) {
     /* Nurlan start */
-
+    .container {
+        padding: 0 4.8vw;
+        max-width: 83.333vw;
+      }
+      .container header {
+        row-gap: 5.867vw;
+        margin-top: 4.8vw;
+      }
+      .logo {
+        width: 9.933vw;
+        height: 6vw;
+        margin-bottom: 6vw;
+      }
+      header .menu a {
+        width: 8.077vw;
+        height: 1.988vw;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.333vw;
+        line-height: 1.6vw;
+        margin-right: 1.553vw;
+        margin-bottom: 1.075vw;
+        color: black;
+      }
+      header .menu a img {
+        width: 2.333vw;
+        height: 2.333vw;
+        margin-right: 0.533vw;
+      }
+      header .menu span {
+        font-size: 2.333vw;
+      }
+      header .menu {
+        display: flex;
+      }
+      .hero .top-content {
+        display: flex;
+        align-items: flex-start;
+      }
+      .hero .top-content .hero-text {
+        width: 100%;
+      }
+      .hero .top-content .hero-text h1 {
+        width: 43.017vw;
+        height: 11.804vw;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 5.933vw;
+        line-height: 101.38%;
+        margin-bottom: 1.296vw;
+        margin-top: 1.075vw;
+      }
+      .hero .top-content .hero-text p {
+        width: 60.32vw;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.6vw;
+        margin-bottom: 28.495vw;
+      }
+      .hero .hero-image {
+        position: relative;
+      }
+      .hero .hero-image img:first-child {
+        position: absolute;
+        top: 15.333vw;
+        left: -17.333vw;
+        width: 21.891vw;
+        height: 27.347vw;
+      }
+    
+      .hero .hero-image img:last-child {
+        z-index: -1;
+        position: absolute;
+        left: -15.667vw;
+        top: 40.667vw;
+        width: 21.024vw;
+        height: 3.547vw;
+      }
+      .hero .bottom-content {
+        display: flex;
+      }
+      .hero .bottom-content div {
+        width: 46.048vw;
+        height: 17.425vw;
+        background: #1e4681;
+        border-radius: 0.311vw;
+        color: #fff;
+      }
+      .hero .bottom-content div p:first-child {
+        width: 43.752vw;
+        height: 7.02vw;
+        left: 6.681vw;
+        top: 63.563vw;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.467vw;
+        line-height: 130%;
+        padding-top: 1.2vw;
+        padding-left: 1.6vw;
+        margin-bottom: 0.923vw;
+      }
+      .hero .bottom-content div p:last-child {
+        width: 34.427vw;
+        height: 2.836vw;
+        left: 16.673vw;
+        top: 71.505vw;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.333vw;
+        line-height: 130%;
+        text-align: right;
+        padding-top: 4.467vw;
+        margin-left: 10.8vw;
+      }
+    
+      .about {
+        margin-top: 10.008vw;
+        display: flex;
+        flex-direction: column;
+      }
+      .about .top-content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2vw;
+      }
+      .about .top-content .about-content {
+        display: flex;
+        width: 100%;
+        margin-top: 2.667vw;
+        flex-direction: column;
+        /* align-items: center; */
+        row-gap: 2vw;
+      }
+      .about .top-content h1 {
+        font-family: "Roboto Slab";
+        font-weight: 700;
+        font-size: 5.467vw;
+        line-height: 101.38%;
+      }
+      .about .top-content .about-content p {
+        max-width: 64.129vw;
+        font-size: 2.6vw;
+        line-height: 150%;
+      }
+      .about .about-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .about .about-image img:first-child {
+        display: block;
+        width: 25.509vw;
+      }
+    
+      .about .about-image img:last-child {
+        display: block;
+        z-index: -1;
+        width: 28.74vw;
+        margin-top: -2.53846vw;
+      }
+      .about .bottom-content {
+        display: flex;
+        margin-top: 6.095vw;
+        position: relative;
+      }
+      .about .bottom-image {
+        display: none;
+      }
+      .about .bottom-content .bottom-text {
+        display: flex;
+        align-items: center;
+        column-gap: 4.444vw;
+        width: 41.733vw;
+        flex-wrap: wrap;
+        row-gap: 1.333vw;
+      }
+      .about .bottom-content .bottom-text span {
+        font-weight: 700;
+        font-size: 2.6vw;
+        line-height: 130%;
+      }
+      .about .bottom-content .bottom-text p {
+        padding-top: 1.333vw;
+        max-width: 16.585vw;
+        font-size: 2vw;
+        line-height: 130%;
+        margin-bottom: 15px;
+      }
     /* Nurlan end */
 
 
