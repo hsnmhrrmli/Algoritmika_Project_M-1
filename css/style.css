@@ -11,7 +11,7 @@
 
 @media (min-width: 992px) {
     /* Nurlan start */
-    .container {
+    .top-side {
         margin: 0 auto;
         max-width: 125.098vw;
         padding: 0 9.382vw;
@@ -23,7 +23,7 @@
       .second-bottom {
         width: 14.56667vw;
       }
-      .container header {
+      .top-side header {
         margin-top: 1.564vw;
         display: flex;
         flex-direction: column;
@@ -205,11 +205,11 @@
 
 @media (min-width: 375px) and (max-width: 991px) {
     /* Nurlan start */
-    .container {
+    .top-side {
         padding: 0 4.8vw;
         max-width: 83.333vw;
       }
-      .container header {
+      .top-side header {
         row-gap: 5.867vw;
         margin-top: 4.8vw;
       }
