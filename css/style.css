@@ -12,180 +12,180 @@
 @media (min-width: 992px) {
     /* Nurlan start */
     .top-side {
-        margin: 0 auto;
-        max-width: 125.098vw;
-        padding: 0 9.382vw;
-      }
-    
-      .first-bottom {
-        width: 14.56667vw;
-      }
-      .second-bottom {
-        width: 14.56667vw;
-      }
-      .top-side header {
-        margin-top: 1.564vw;
-        display: flex;
-        flex-direction: column;
-        row-gap: 7.819vw;
-        align-items: flex-start !important;
-      }
-      .logo {
-        width: 8.757vw;
-        height: 5.16vw;
-        object-fit: contain;
-      }
-      header .menu {
-        display: flex;
-        align-items: center;
-        column-gap: 1.955vw;
-      }
-      header .menu a {
-        font-size: 1.564vw;
-        line-height: 1.798vw;
-        color: #000;
-      }
-      .firstm {
-        width: 20.54032vw;
-        height: 25.54032vw;
-      }
-      .secondm {
-        width: 17.54032vw;
-      }
-      header .menu a img {
-        background-size: 1.72vw 1.72vw;
-    
-        width: 1.72vw;
-        height: 1.72vw;
-      }
-      .hero {
-        display: flex;
-        flex-direction: column;
-        row-gap: 5.317vw;
-        margin-top: 0.313vw;
-      }
-      .hero .top-content {
-        display: flex;
-        align-items: flex-start;
-      }
-      .hero .top-content .hero-text h1 {
-        font-size: 6.255vw;
-        line-height: 6.342vw;
-        font-family: "Roboto Slab";
-        max-width: 49.101vw;
-        padding-top: 1.955vw;
-      }
-      .hero .top-content .hero-text p {
-        font-size: 1.564vw;
-        line-height: 150%;
-        padding-top: 2.033vw;
-        max-width: 32.369vw;
-      }
-      .hero .hero-image {
-        position: relative;
-        /* margin-left: 10.946vw; */
-      }
-      .hero .hero-image img:last-child {
-        z-index: -1;
-        position: absolute;
-        left: 2.737vw;
-        bottom: -0.938vw;
-      }
-      .hero .bottom-content {
-        display: flex;
-        justify-content: center;
-      }
-      .hero .bottom-content div {
-        max-width: 37.764vw;
-        background-color: #1e4681;
-        color: #fff;
-        padding: 1.564vw 2.033vw;
-        border-radius: 0.391vw;
-      }
-      .hero .bottom-content div p:first-child {
-        font-family: "Roboto Slab";
-        font-size: 1.955vw;
-        line-height: 2.502vw;
-      }
-      .hero .bottom-content div p:last-child {
-        font-size: 1.564vw;
-        line-height: 2.033vw;
-        text-align: right;
-        padding-top: 0.938vw;
-      }
-      .about {
-        margin-top: 13.554vw;
-        display: flex;
-        flex-direction: column;
-      }
-      .about .top-content {
-        display: flex;
-        flex-direction: column;
-        column-gap: 14.855vw;
-      }
-      .about .top-content .about-content {
-        display: flex;
-        width: 100%;
-        margin-top: 3.987vw;
-        align-items: center;
-        column-gap: 14.855vw;
-      }
-      .about .top-content h1 {
-        font-size: 4.3vw;
-        line-height: 101.38%;
-        font-family: "Roboto Slab";
-        font-weight: 700;
-      }
-      .about .top-content .about-content p {
-        max-width: 51.759vw;
-        font-size: 1.876vw;
-        line-height: 2.815vw;
-      }
-      .about .about-image {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-      }
-      .about-image1 {
-        width: 23.81792vw;
-      }
-      .about-image2 {
-        width: 28.81792vw;
-      }
-      .about .about-image img:last-child {
-        position: absolute;
-        bottom: -1.955vw;
-        z-index: -1;
-      }
-      .about .bottom-content {
-        display: flex;
-        margin-top: 7.349vw;
-        position: relative;
-        column-gap: 10.321vw;
-      }
-      .about .bottom-image img:last-child {
-        position: absolute;
-        left: 0.6vw;
-        bottom: -1.173vw;
-        z-index: -1;
-      }
-      .about .bottom-content .bottom-text {
-        display: flex;
-        align-items: center;
-        column-gap: 7.428vw;
-      }
-      .about .bottom-content .bottom-text span {
-        font-size: 1.955vw;
-        line-height: 130%;
-        font-weight: 700;
-      }
-      .about .bottom-content .bottom-text p {
-        font-size: 1.407vw;
-        line-height: 130%;
-        max-width: 11.728vw;
-        padding-top: 1.173vw;
-      }
+      margin: 0 auto;
+      max-width: 125.098vw;
+      padding: 0 9.382vw;
+    }
+  
+    .first-bottom {
+      width: 14.56667vw;
+    }
+    .second-bottom {
+      width: 14.56667vw;
+    }
+    .top-side header {
+      margin-top: 1.564vw;
+      display: flex;
+      flex-direction: column;
+      row-gap: 7.819vw;
+      align-items: flex-start !important;
+    }
+    .logo {
+      width: 8.757vw;
+      height: 5.16vw;
+      object-fit: contain;
+    }
+    header .menu {
+      display: flex;
+      align-items: center;
+      column-gap: 1.955vw;
+    }
+    header .menu a {
+      font-size: 1.564vw;
+      line-height: 1.798vw;
+      color: #000;
+    }
+    .firstm {
+      width: 20.54032vw;
+      height: 25.54032vw;
+    }
+    .secondm {
+      width: 17.54032vw;
+    }
+    header .menu a img {
+      background-size: 1.72vw 1.72vw;
+  
+      width: 1.72vw;
+      height: 1.72vw;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      row-gap: 5.317vw;
+      margin-top: 0.313vw;
+    }
+    .hero .top-content {
+      display: flex;
+      align-items: flex-start;
+    }
+    .hero .top-content .hero-text h1 {
+      font-size: 6.255vw;
+      line-height: 6.342vw;
+      font-family: "Roboto Slab";
+      max-width: 49.101vw;
+      padding-top: 1.955vw;
+    }
+    .hero .top-content .hero-text p {
+      font-size: 1.564vw;
+      line-height: 150%;
+      padding-top: 2.033vw;
+      max-width: 32.369vw;
+    }
+    .hero .hero-image {
+      position: relative;
+      /* margin-left: 10.946vw; */
+    }
+    .hero .hero-image img:last-child {
+      z-index: -1;
+      position: absolute;
+      left: 2.737vw;
+      bottom: -0.938vw;
+    }
+    .hero .bottom-content {
+      display: flex;
+      justify-content: center;
+    }
+    .hero .bottom-content div {
+      max-width: 37.764vw;
+      background-color: #1e4681;
+      color: #fff;
+      padding: 1.564vw 2.033vw;
+      border-radius: 0.391vw;
+    }
+    .hero .bottom-content div p:first-child {
+      font-family: "Roboto Slab";
+      font-size: 1.955vw;
+      line-height: 2.502vw;
+    }
+    .hero .bottom-content div p:last-child {
+      font-size: 1.564vw;
+      line-height: 2.033vw;
+      text-align: right;
+      padding-top: 0.938vw;
+    }
+    .about {
+      margin-top: 13.554vw;
+      display: flex;
+      flex-direction: column;
+    }
+    .about .top-content {
+      display: flex;
+      flex-direction: column;
+      column-gap: 14.855vw;
+    }
+    .about .top-content .about-content {
+      display: flex;
+      width: 100%;
+      margin-top: 3.987vw;
+      align-items: center;
+      column-gap: 14.855vw;
+    }
+    .about .top-content h1 {
+      font-size: 4.3vw;
+      line-height: 101.38%;
+      font-family: "Roboto Slab";
+      font-weight: 700;
+    }
+    .about .top-content .about-content p {
+      max-width: 51.759vw;
+      font-size: 1.876vw;
+      line-height: 2.815vw;
+    }
+    .about .about-image {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+    .about-image1 {
+      width: 23.81792vw;
+    }
+    .about-image2 {
+      width: 28.81792vw;
+    }
+    .about .about-image img:last-child {
+      position: absolute;
+      bottom: -1.955vw;
+      z-index: -1;
+    }
+    .about .bottom-content {
+      display: flex;
+      margin-top: 7.349vw;
+      position: relative;
+      column-gap: 10.321vw;
+    }
+    .about .bottom-image img:last-child {
+      position: absolute;
+      left: 0.6vw;
+      bottom: -1.173vw;
+      z-index: -1;
+    }
+    .about .bottom-content .bottom-text {
+      display: flex;
+      align-items: center;
+      column-gap: 7.428vw;
+    }
+    .about .bottom-content .bottom-text span {
+      font-size: 1.955vw;
+      line-height: 130%;
+      font-weight: 700;
+    }
+    .about .bottom-content .bottom-text p {
+      font-size: 1.407vw;
+      line-height: 130%;
+      max-width: 11.728vw;
+      padding-top: 1.173vw;
+    }
     /* Nurlan end */
 
 
