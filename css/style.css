@@ -10,7 +10,6 @@
     list-style: none;
 }
 
-
 @media (min-width: 992px) {
     /* Nurlan start */
     .top-side {
@@ -610,6 +609,7 @@
     .top-side {
         padding: 0 4.8vw;
         max-width: 83.333vw;
+        margin: 0 auto;
       }
       .top-side header {
         row-gap: 5.867vw;
@@ -770,7 +770,7 @@
         display: block;
         z-index: -1;
         width: 28.74vw;
-        margin-top: -2.53846vw;
+        margin-top: -10.03846vw;
       }
       .about .bottom-content {
         display: flex;
