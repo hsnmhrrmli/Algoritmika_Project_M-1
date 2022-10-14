@@ -49,7 +49,7 @@ body {
     color: #000;
   }
   .firstm {
-    width: 20.54032vw;
+    width: 32.54032vw;
     height: 25.54032vw;
   }
   .secondm {
@@ -91,8 +91,8 @@ body {
   .hero .hero-image img:last-child {
     z-index: -1;
     position: absolute;
-    left: 2.737vw;
-    bottom: 0.062vw;
+    left: 8.737vw;
+    bottom: -0.938vw;
   }
   .hero .bottom-content {
     display: flex;
@@ -184,7 +184,7 @@ body {
     font-weight: 700;
   }
   .about .bottom-content .bottom-text p {
-    font-size: 1.407vw;
+    font-size: 1.507vw;
     line-height: 130%;
     max-width: 11.728vw;
     padding-top: 1.173vw;
@@ -780,6 +780,9 @@ body {
     padding-top: 4.467vw;
     margin-left: 10.8vw;
   }
+  .right-li{
+    margin-left: 13px;
+  }
 
   .about {
     margin-top: 10.008vw;
@@ -807,7 +810,7 @@ body {
   }
   .about .top-content .about-content p {
     max-width: 68.129vw;
-    font-size: 2.6vw;
+    font-size: 2.9vw;
     line-height: 150%;
   }
   .about .about-image {
@@ -852,7 +855,7 @@ body {
   .about .bottom-content .bottom-text p {
     padding-top: 1.333vw;
     max-width: 16.585vw;
-    font-size: 2vw;
+    font-size: 2.3vw;
     line-height: 130%;
     margin-bottom: 15px;
   }
