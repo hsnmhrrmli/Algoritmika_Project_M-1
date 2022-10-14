@@ -208,6 +208,7 @@ body {
     margin-right: 8.5vw;
   }
   .format .list div p {
+    margin-bottom: 0.55vw;
     color: #1E4681;
     font-size: 2vw;
     line-height: 2.3vw;
@@ -252,6 +253,7 @@ body {
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
   }
+  
 
 
   /* Nezrin end */
