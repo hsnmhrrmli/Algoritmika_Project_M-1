@@ -49,7 +49,7 @@ body {
     color: #000;
   }
   .firstm {
-    width: 20.54032vw;
+    width: 32.54032vw;
     height: 25.54032vw;
   }
   .secondm {
@@ -91,8 +91,8 @@ body {
   .hero .hero-image img:last-child {
     z-index: -1;
     position: absolute;
-    left: 2.737vw;
-    bottom: 0.062vw;
+    left: 8.737vw;
+    bottom: -0.938vw;
   }
   .hero .bottom-content {
     display: flex;
