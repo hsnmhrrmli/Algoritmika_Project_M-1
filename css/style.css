@@ -184,7 +184,7 @@ body {
     font-weight: 700;
   }
   .about .bottom-content .bottom-text p {
-    font-size: 1.407vw;
+    font-size: 1.507vw;
     line-height: 130%;
     max-width: 11.728vw;
     padding-top: 1.173vw;
@@ -717,6 +717,9 @@ body {
     padding-top: 4.467vw;
     margin-left: 10.8vw;
   }
+  .right-li{
+    margin-left: 13px;
+  }
 
   .about {
     margin-top: 10.008vw;
@@ -744,7 +747,7 @@ body {
   }
   .about .top-content .about-content p {
     max-width: 68.129vw;
-    font-size: 2.6vw;
+    font-size: 2.9vw;
     line-height: 150%;
   }
   .about .about-image {
@@ -789,7 +792,7 @@ body {
   .about .bottom-content .bottom-text p {
     padding-top: 1.333vw;
     max-width: 16.585vw;
-    font-size: 2vw;
+    font-size: 2.3vw;
     line-height: 130%;
     margin-bottom: 15px;
   }
