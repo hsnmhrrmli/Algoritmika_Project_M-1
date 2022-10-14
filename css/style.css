@@ -14,7 +14,7 @@ body {
 
 @media (min-width: 992px) {
   /* Nurlan start */
-  .top-side {
+  .top-side {  
     margin: 0 auto;
     max-width: 125.098vw;
     padding: 0 9.382vw;
@@ -192,6 +192,67 @@ body {
   /* Nurlan end */
 
   /* Nezrin start */
+
+  .format {
+    margin-top: 11vw;
+    margin-bottom: 14vw;
+  }
+  .format .list {
+    margin-left: 8.4vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .format .list div {
+    width: 19.4vw;
+    margin-right: 8.5vw;
+  }
+  .format .list div p {
+    color: #1E4681;
+    font-size: 2vw;
+    line-height: 2.3vw;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+  }
+  .format .list div span {
+    font-size: 1.3vw;
+    line-height: 1.6vw;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+  }
+  .format .name h1 {
+    font-size: 3.8vw;
+    line-height: 3.9vw;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 8.4vw;
+    margin-bottom: 6.2vw;
+  }
+  .myText {
+    margin-left: 8.4vw;
+  }
+  .myText .myHead {
+    margin-bottom: 2vw;
+  }
+  .myText .myHead h1 {
+    font-size: 3.8vw;
+    line-height: 3.87vw;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+  }
+  .myText .myList ul {
+    
+    max-width: 46vw;
+    padding-left: 0vw;
+    margin-left: 2vw;
+  }
+  .myText .myList ul li {
+    list-style: inside;
+    font-size: 1.6vw;
+    line-height: 2.5vw;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+  }
+
 
   /* Nezrin end */
 
@@ -797,6 +858,80 @@ body {
   /* Nurlan end */
 
   /* Nezrin start */
+
+  .format {
+    margin-top: 20vw;
+    margin-bottom: 20vw;
+  }
+  .format .list {
+    margin-left: 9.6vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .format .list div {
+    margin-bottom: 6vw;
+  }
+  .format .list div p {
+    color: #1E4681;
+    font-size: 3.2vw;
+    line-height: 4.16vw;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1vw;
+  }
+  .format .list div span {
+    display: block;
+    font-size: 2.6vw;
+    line-height: 3.4vw;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+  }
+  .format .name h1 {
+    font-size: 6.9vw;
+    line-height: 7vw;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 9.6vw;
+    margin-bottom: 6.9vw;
+  }
+  .format .list .first span {
+    width: 48vw;
+  }
+  .format .list .second span {
+    width: 44vw;
+  }
+  .format .list .third span {
+    width: 42.4vw;
+  }
+  .myText {
+    margin-left: 9.6vw;
+  }
+  .myText .myHead {
+    margin-bottom: 2.4vw;
+  }
+  .myText .myHead h1 {
+    font-size: 7vw;
+    line-height: 7vw;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 6vw;
+  }
+  .myText .myList ul {
+    max-width: 79.7vw;
+    padding-left: 0vw;
+    margin-left: 3vw;
+  }
+  .myText .myList ul li {
+    list-style: inside;
+    font-size: 3.2vw;
+    line-height: 4.8vw;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+  }
 
   /* Nezrin end */
 
