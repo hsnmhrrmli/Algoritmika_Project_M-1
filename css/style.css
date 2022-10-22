@@ -1,1272 +1,783 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* umumi  */
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  list-style: none;
   text-decoration: none;
-}
-body {
-  overflow-x: hidden;
+  box-sizing: border-box;
 }
 
-@media (min-width: 992px) {
-  /* Nurlan start */
-  .top-side {
-    margin: 0 auto;
-    max-width: 125.098vw;
-    padding: 0 9.382vw;
-  }
-
-  .first-bottom {
-    width: 14.56667vw;
-  }
-  .second-bottom {
-    width: 14.56667vw;
-  }
-  .top-side header {
-    margin-top: 1.564vw;
-    display: flex;
-    flex-direction: column;
-    row-gap: 7.819vw;
-    align-items: flex-start !important;
-  }
-  .logo {
-    width: 8.757vw;
-    height: 5.16vw;
-    object-fit: contain;
-  }
-  header .menu {
-    display: flex;
-    align-items: center;
-    column-gap: 1.955vw;
-  }
-  header .menu a {
-    font-size: 1.564vw;
-    line-height: 1.798vw;
-    color: #000;
-  }
-  .firstm {
-    width: 32.54032vw;
-    height: 25.54032vw;
-  }
-  .secondm {
-    width: 17.54032vw;
-  }
-  header .menu a img {
-    background-size: 1.72vw 1.72vw;
-
-    width: 1.72vw;
-    height: 1.72vw;
-  }
-  .hero {
-    display: flex;
-    flex-direction: column;
-    row-gap: 5.317vw;
-    margin-top: 0.313vw;
-  }
-  .hero .top-content {
-    display: flex;
-    align-items: flex-start;
-  }
-  .hero .top-content .hero-text h1 {
-    font-size: 6.255vw;
-    line-height: 6.342vw;
-    font-family: "Roboto Slab";
-    max-width: 49.101vw;
-    padding-top: 1.955vw;
-  }
-  .hero .top-content .hero-text p {
-    font-size: 1.564vw;
-    line-height: 150%;
-    padding-top: 2.033vw;
-    max-width: 32.369vw;
-  }
-  .hero .hero-image {
-    position: relative;
-    /* margin-left: 10.946vw; */
-  }
-  .hero .hero-image img:last-child {
-    z-index: -1;
-    position: absolute;
-    left: 8.737vw;
-    bottom: -0.938vw;
-  }
-  .hero .bottom-content {
-    display: flex;
-    justify-content: center;
-  }
-  .hero .bottom-content div {
-    max-width: 37.764vw;
-    background-color: #1e4681;
-    color: #fff;
-    padding: 1.564vw 2.033vw;
-    border-radius: 0.391vw;
-  }
-  .hero .bottom-content div p:first-child {
-    font-family: "Roboto Slab";
-    font-size: 1.955vw;
-    line-height: 2.502vw;
-  }
-  .hero .bottom-content div p:last-child {
-    font-size: 1.564vw;
-    line-height: 2.033vw;
-    text-align: right;
-    padding-top: 0.938vw;
-  }
-  .about {
-    margin-top: 13.554vw;
-    display: flex;
-    flex-direction: column;
-  }
-  .about .top-content {
-    display: flex;
-    flex-direction: column;
-    column-gap: 14.855vw;
-  }
-  .about .top-content .about-content {
-    display: flex;
-    width: 100%;
-    margin-top: 3.987vw;
-    align-items: center;
-    column-gap: 14.855vw;
-  }
-  .about .top-content h1 {
-    font-size: 4.3vw;
-    line-height: 101.38%;
-    font-family: "Roboto Slab";
-    font-weight: 700;
-  }
-  .about .top-content .about-content p {
-    max-width: 51.759vw;
-    font-size: 1.876vw;
-    line-height: 2.815vw;
-  }
-  .about .about-image {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-  }
-  .about-image1 {
-    width: 23.81792vw;
-  }
-  .about-image2 {
-    width: 28.81792vw;
-  }
-  .about .about-image img:last-child {
-    position: absolute;
-    bottom: -1.955vw;
-    z-index: -1;
-  }
-  .about .bottom-content {
-    display: flex;
-    margin-top: 7.349vw;
-    position: relative;
-    column-gap: 10.321vw;
-  }
-  .about .bottom-image img:last-child {
-    position: absolute;
-    left: 0.6vw;
-    bottom: -1.173vw;
-    z-index: -1;
-  }
-  .about .bottom-content .bottom-text {
-    display: flex;
-    align-items: center;
-    column-gap: 7.428vw;
-  }
-  .about .bottom-content .bottom-text span {
-    font-size: 1.955vw;
-    line-height: 130%;
-    font-weight: 700;
-  }
-  .about .bottom-content .bottom-text p {
-    font-size: 1.507vw;
-    line-height: 130%;
-    max-width: 11.728vw;
-    padding-top: 1.173vw;
-  }
-  /* Nurlan end */
-
-  /* Nezrin start */
-
-  /* Nezrin end */
-
-  /* Hesen start */
-
-  .program-course {
-    margin-top: 13.88vw;
-    margin-bottom: 3.47vw;
-  }
-
-  .program-course .head {
-    margin-left: 8.4vw;
-    margin-bottom: 6.94vw;
-  }
-
-  .program-course .head h1 {
-    font-size: 3.819vw;
-    line-height: 3.87vw;
-    font-weight: 700;
-    font-family: "Roboto Slab", serif;
-  }
-
-  .program-course .myitems {
-    margin-left: 3.944vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-
-  .program-course .myitems .item {
-    border-radius: 30%;
-    width: 27.7vw;
-    margin: 0 1.38vw;
-  }
-
-  .program-course .myitems .item .box {
-    border-radius: 2.083vw;
-    margin-bottom: 2.083vw;
-  }
-
-  .program-course .myitems .item .top {
-    -webkit-box-shadow: 0.0694vw 0.0694vw 1.04vw 0px #00000040;
-    box-shadow: 0.0694vw 0.0694vw 1.04vw 0px #00000040;
-    border-radius: 2.083vw;
-  }
-
-  .program-course .myitems .item .bottom {
-    padding: 0.694vw 1.3888vw;
-  }
-
-  .program-course .myitems .item .bottom h3 {
-    font-size: 2.083vw;
-    line-height: 2.7vw;
-    font-weight: 700;
-    font-family: "Roboto", sans-serif;
-    margin-bottom: 2.083vw;
-  }
-
-  .program-course img {
-    width: 27.708vw;
-    height: 11.11vw;
-  }
-
-  .program-course .myitems .item .bottom span {
-    font-weight: 400;
-    font-size: 1.736vw;
-    line-height: 2.256vw;
-    font-family: "Roboto Slab", serif;
-  }
-
-  .program-course .myitems .item .bottom .first {
-    margin-bottom: 0.694vw;
-    line-height: 2.02vw;
-  }
-
-  .myBody {
-    padding: 5em 0em 3em;
-    background: #efefef;
-  }
-
-  .myBody .myHead2 {
-    width: 68.5vw;
-    height: 6.4vw;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 3.8vw;
-    line-height: 101.38%;
-    color: #000000;
-    margin-left: 8.4vw;
-  }
-
-  .myBody .box {
-    width: 55vw;
-    height: 31vw;
-    margin-left: 8.7vw;
-    border-radius: 2vw;
-    padding: 1.3vw;
-    padding-left: 2.7vw;
-    -webkit-box-shadow: 1px 1px 20px 0px #00000040;
-    box-shadow: 1px 1px 20px 0px #00000040;
-    background-color: white;
-    margin-bottom: 7vw;
-  }
-
-  .myBody .box .Up {
-    width: 48vw;
-    height: 14vw;
-    left: 11.8vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.3vw;
-    line-height: 150%;
-    color: #000000;
-    padding-right: 0vw;
-    padding-top: 1.3vw;
-    margin-bottom: 1.04vw;
-  }
-
-  .myBody .box .Down {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .myBody .box .Down .myleft {
-    width: 13.19vw;
-    height: 11.7vw;
-    left: 10.4vw;
-  }
-
-  .myBody .box .Down .myleft img {
-    width: 12.5vw;
-    height: 11vw;
-  }
-
-  .myBody .box .Down .myright {
-    margin-left: 2vw;
-  }
-
-  .myBody .box .Down .myright p {
-    width: 24.5vw;
-    height: 4vw;
-    left: 25.7vw;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2vw;
-    line-height: 101.38%;
-    color: #000000;
-    margin-bottom: -0.3vw;
-  }
-
-  .myBody .box .Down .myright img {
-    width: 2.2vw;
-    height: 2.1vw;
-    left: 25.7vw;
-  }
-
-  /* BOTTOM */
-  .footerTop {
-    width: 100%;
-    height: 54.1vw;
-    background: #9dc9c8;
-  }
-
-  .footerTopfHead {
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 3.8vw;
-    line-height: 101.38%;
-    width: 68.5vw;
-    height: 4.58vw;
-    margin-bottom: 3.75vw;
-    color: #000000;
-  }
-
-  .textMidHead {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.73vw;
-    line-height: 101.38%;
-    width: 11.08vw;
-    height: 2.22vw;
-    color: #000000;
-  }
-
-  .textMidBody {
-    width: 33.4vw;
-    height: 12.569vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 5.55vw;
-    line-height: 101.38%;
-    color: #000000;
-  }
-
-  .text1Head {
-    width: 20.41vw;
-    height: 2.22vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.73vw;
-    line-height: 101.38%;
-    color: #000000;
-  }
-
-  .text1Body {
-    width: 20.41vw;
-    height: 4.86vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.25vw;
-    line-height: 101.38%;
-    color: #000000;
-  }
-
-  .text2Head {
-    width: 22.36vw;
-    height: 2.22vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.73vw;
-    color: #000000;
-    line-height: 101.38%;
-  }
-
-  .text2Body {
-    width: 20.41vw;
-    height: 4.86vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.25vw;
-    line-height: 101.38%;
-    color: #000000;
-  }
-
-  .textHBH {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-
-  .footerTopBody {
-    margin-left: 8.47vw;
-  }
-
-  .textHB {
-    margin-right: 4.86vw;
-    /* margin-top:; */
-  }
-
-  .footerTop {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .insta,
-  .fb,
-  .letterW,
-  .phoneW,
-  .wk,
-  .messenger {
-    width: 2.29vw;
-    height: 2.29vw;
-  }
-
-  .bottomLogo {
-    width: 7.89vw;
-    height: 4.72vw;
-    margin-top: 3.47vw;
-    margin-left: 8.47vw;
-  }
-
-  .conn,
-  .conn1,
-  .bottomText {
-    color: white;
-  }
-
-  img.phoneW {
-    margin-right: 1.52vw;
-  }
-
-  img.letterW {
-    margin-right: 1.52vw;
-  }
-
-  .conn {
-    width: 22.56vw;
-    height: 2.77vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.73vw;
-    line-height: 101.38%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-
-  .conn1 {
-    width: 20.83vw;
-    height: 2.77vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.73vw;
-    line-height: 101.38%;
-    margin-top: 1.73vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-
-  .social {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 2.08vw;
-    margin-left: 8.47vw;
-  }
-
-  .insta,
-  .fb,
-  .wk {
-    margin-right: 1.25vw;
-  }
-
-  .footerBottom {
-    width: 100%;
-    height: 27.08333vw;
-    background: #000000;
-  }
-
-  .bottomRow {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-
-  .bottomRowLeft {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
-  .bottomText {
-    width: 15.97vw;
-    height: 2.77vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.25vw;
-    line-height: 101.38%;
-    margin-top: 10.13vw;
-    margin-left: 8.47vw;
-  }
-
-  .bottomRowRight {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    margin-left: 52.7vw;
-    margin-top: 3.47vw;
-  }
-  /* Hesen end */
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: black;
 }
 
-@media (min-width: 375px) and (max-width: 991px) {
-  /* Nurlan start */
-  .top-side {
-    padding: 0 4.8vw;
-    max-width: 83.333vw;
-    margin: 0 auto;
-  }
-  .top-side header {
-    row-gap: 5.867vw;
-    margin-top: 4.8vw;
-  }
-  .logo {
-    width: 9.933vw;
-    height: 6vw;
-    margin-bottom: 6vw;
-  }
-  header .menu a {
-    width: 8.077vw;
-    height: 1.988vw;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.333vw;
-    line-height: 1.6vw;
-    margin-right: 1.553vw;
-    margin-bottom: 1.075vw;
-    color: black;
-  }
-  header .menu a img {
-    width: 2.333vw;
-    height: 2.333vw;
-    margin-right: 0.533vw;
-  }
-  header .menu span {
-    font-size: 2.333vw;
-  }
-  header .menu {
-    display: flex;
-  }
-  .hero .top-content {
-    display: flex;
-    align-items: flex-start;
-  }
-  .hero .top-content .hero-text {
-    width: 100%;
-  }
-  .hero .top-content .hero-text h1 {
-    width: 43.017vw;
-    height: 11.804vw;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 5.933vw;
-    line-height: 101.38%;
-    margin-bottom: 1.296vw;
-    margin-top: 1.075vw;
-  }
-  .hero .top-content .hero-text p {
-    width: 60.32vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.6vw;
-    margin-bottom: 28.495vw;
-  }
-  .hero .hero-image {
-    position: relative;
-  }
-  .hero .hero-image img:first-child {
-    position: absolute;
-    top: 15.333vw;
-    left: -20.333vw;
-    width: 25.891vw;
-    height: 35.347vw;
+.container {
+  max-width: 1280px;
+  min-width: 320px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  line-height: 1.01;
+}
+
+h2 {
+  font-size: 55px;
+}
+
+/* first basla */
+
+.start {
+  padding: 1rem 0 0;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  max-width: 4.67rem;
+  margin-bottom: 1rem;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.intro_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem 0;
+}
+
+.start_info {
+  margin-right: 6rem;
+  font-size: 0.83rem;
+}
+
+.tesis {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tesis-item {
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.tesis-item img {
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-right: 0.2rem;
+}
+
+.intro_text {
+  width: 26.25rem;
+  font-size: 0.83rem;
+}
+
+.intro_text h1 {
+  font-size: 3.33rem;
+  margin-bottom: 1rem;
+}
+
+.intro_text p {
+  line-height: 1.5;
+}
+
+.intro_img {
+  margin-top: 2rem;
+  min-width: 12.7rem;
+  position: relative;
+}
+
+.intro_img .ellipse_1 {
+  width: 90%;
+  height: 1.7rem;
+  background-color: #EFEFEF;
+  border-radius: 50%;
+  z-index: -1;
+  position: absolute;
+  bottom: -0.6rem;
+  left: 1.4rem;
+}
+
+.intro_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.intro_quote {
+  background-color: #1E4681;
+  color: white;
+  line-height: 1.3;
+  width: 33%;
+  min-width: 20.16rem;
+  border-radius: 5px;
+  padding: 0.8rem 1.1rem;
+  margin: auto;
+}
+
+.intro_quote-text {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.04rem;
+  margin-bottom: 0.9rem;
+}
+
+.intro_quote-author {
+  text-align: end;
+}
+
+/* first end */
+
+/* about basla */
+.about {
+  padding: 5rem 0 0;
+}
+
+.about-title {
+  margin-bottom: 1rem;
+}
+
+.central-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 9rem;
+  margin-bottom: 2rem;
+}
+
+.about-course-text * {
+  margin-bottom: 1rem;
+  line-height: 150%;
+}
+
+.about-course-text *:last-child {
+  margin-bottom: 0;
+}
+
+.about-central-img {
+  margin-top: 2rem;
+  min-width: 15.25rem;
+  position: relative;
+}
+
+.about-central-img img {
+  width: 86%;
+  height: 86%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.about-central-img .ellipse_2 {
+  width: 100%;
+  height: 2.45rem;
+  background-color: #EFEFEF;
+  border-radius: 50%;
+  z-index: -1;
+  position: absolute;
+  bottom: -1rem;
+  left: -0.8rem;
+}
+
+.bottom-block {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5rem;
+
+}
+
+.about-bottom-img {
+  max-width: 9.67rem;
+  position: relative;
+}
+
+.about-bottom-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.about-bottom-img .ellipse_3 {
+  width: 81%;
+  height: 1.33rem;
+  background-color: #EFEFEF;
+  border-radius: 50%;
+  z-index: -1;
+  position: absolute;
+  bottom: -0.4rem;
+  left: 1.4rem;
+}
+
+.offer {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  line-height: 130%;
+}
+
+.offer-item {
+  font-size: 0.75rem;
+}
+
+.offer-item p:first-child {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 0.5rem;
+}
+
+/* about son */
+
+/* third start  */
+.format {
+  margin-top: 6.75rem;
+}
+
+.format-title,
+.know-title {
+  margin-bottom: 2rem;
+}
+
+.format-wrap {
+  display: flex;
+  gap: 3rem;
+  width: 83%;
+  padding: 2rem 0;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 1.04rem;
+  font-weight: 700;
+  color: #1E4681;
+  margin-bottom: 0.5rem;
+}
+
+.text {
+  font-size: 0.75rem;
+  line-height: 130%;
+}
+
+.know-list {
+  width: 55%;
+  line-height: 150%;
+  padding-left: 1.5rem;
+}
+/* third end  */
+
+/* fourth start  */
+.programm {
+  margin-top: 6.75rem;
+}
+
+.programm-title {
+  margin-bottom: 2rem;
+}
+
+.cards-wrap {
+  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 1.54rem;
+}
+
+.cards-item {
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 1.25rem;
+  transition: transform 0.5s ease-in-out;
+  max-width: 16.625rem;
+}
+
+.cards-item:hover {
+  transform: scale(1.1);
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-inner {
+  padding: 0.8rem;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 130%;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1.04rem;
+  line-height: 130%;
+}
+
+/* fourth end  */
+/* fifth start  */
+.graduate {
+  background-color: #EFEFEF;
+  margin-top: 2rem;
+}
+
+.graduate .container {
+  padding: 3.8rem 0.5rem 4.6rem;
+}
+
+.graduate-title {
+  margin-bottom: 3.8rem;
+}
+
+.graduate-wrap {
+  width: 63%;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 1.25rem;
+  padding: 1.67rem 1.9rem 1rem;
+}
+
+.graduate-wrap p {
+  font-size: 0.83rem;
+  line-height: 150%;
+}
+
+.graduate-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-img {
+  width: 7.9rem;
+}
+
+.bottom-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bottom-text {
+  margin-left: 1.25rem;
+  height: 3.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bottom-text h3 {
+  font-size: 1.25rem;
+}
+
+.bottom-text img {
+  width: 1.33rem;
+}
+
+/* fifth end  */
+/* sixth start  */
+.course-start {
+  background-color: #9DC9C8;
+}
+
+.course-start .container {
+  padding: 7.46rem 0.5rem 7.7rem;
+}
+
+.start-date {
+  margin-bottom: 2.25rem;
+}
+
+.course-cost {
+  margin-bottom: 3rem;
+}
+
+.course-cost p:first-of-type {
+  font-size: 1.04rem;
+}
+
+.course-cost p:nth-of-type(2) {
+  font-size: 3.33rem;
+}
+
+.cours-text {
+  display: flex;
+  width: 55%;
+}
+
+.cours-text-item p:first-of-type {
+  font-size: 1.04rem;
+  margin-bottom: 0.5rem;
+}
+
+.cours-text-item p:nth-of-type(2) {
+  font-size: 0.75rem;
+}
+
+/* sixth end  */
+/* footer */
+.footer {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.footer .container {
+  padding: 2.08rem 0.5rem;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6.12rem;
+}
+
+.contacts-left {
+  height: 7.41rem;
+  width: 8.2rem;
+}
+
+.logo-white {
+  width: 60%;
+  margin-bottom: 1.25rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials img {
+  max-width: 1.375rem;
+  max-height: 1.375rem;
+}
+
+.contacts-right {
+  width: 13.25rem;
+}
+
+.contacts-right img {
+  max-width: 1.125rem;
+  max-height: 1.125rem;
+}
+
+.phone,
+.mail {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.9rem
+}
+
+.phone {
+  margin-bottom: 1rem;
+}
+
+.bottom {
+  font-size: 0.75rem;
+}
+
+/* footer end */
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+  html {
+    font-size: 10px;
   }
 
-  .hero .hero-image img:last-child {
-    z-index: -1;
-    position: absolute;
-    left: -16.067vw;
-    top: 46.067vw;
-    width: 21.024vw;
-    height: 3.547vw;
-  }
-  .hero .bottom-content {
-    display: flex;
-  }
-  .hero .bottom-content div {
-    width: 46.048vw;
-    height: 17.425vw;
-    background: #1e4681;
-    border-radius: 0.311vw;
-    color: #fff;
-  }
-  .hero .bottom-content div p:first-child {
-    width: 44.752vw;
-    height: 7.02vw;
-    left: 6.681vw;
-    top: 63.563vw;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.47vw;
-    line-height: 130%;
-    padding-top: 1.2vw;
-    padding-left: 1.6vw;
-    margin-bottom: 0.923vw;
-  }
-  .hero .bottom-content div p:last-child {
-    width: 32.427vw;
-    height: 2.836vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.333vw;
-    line-height: 130%;
-    text-align: right;
-    padding-top: 4.467vw;
-    margin-left: 10.8vw;
+  h2 {
+    font-size: 26px;
   }
 
-  .about {
-    margin-top: 10.008vw;
-    display: flex;
-    flex-direction: column;
+  .container {
+    padding: 0 3rem;
   }
-  .about .top-content {
-    display: flex;
-    flex-direction: column;
-    row-gap: 2vw;
+
+  /* first basla */
+  .intro_text {
+    font-size: 1rem;
   }
-  .about .top-content .about-content {
-    display: flex;
-    width: 100%;
-    margin-top: 2.667vw;
-    flex-direction: column;
-    /* align-items: center; */
-    row-gap: 2vw;
+
+  .intro_text h1 {
+    font-size: 37px;
   }
-  .about .top-content h1 {
-    font-family: "Roboto Slab";
-    font-weight: 700;
-    font-size: 5.467vw;
-    line-height: 101.38%;
-  }
-  .about .top-content .about-content p {
-    max-width: 68.129vw;
-    font-size: 2.6vw;
-    line-height: 150%;
-  }
-  .about .about-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .about .about-image img:first-child {
+
+  .intro_wrap {
     display: block;
-    width: 25.509vw;
-    height: 35vw;
+    max-width: 65rem;
   }
 
-  .about .about-image img:last-child {
+  .intro_img {
+    margin-top: 0;
+    margin-left: auto;
+    max-width: 14.2rem;
+  }
+
+  .intro_quote {
+    margin-left: 0;
+  }
+
+  /* first son */
+
+  /* about basla */
+  .about-title {
+    margin-bottom: 2rem;
+  }
+
+  .about-course-text p:first-child {
+    margin-bottom: 2rem;
+  }
+
+  .central-block {
     display: block;
-    z-index: -1;
-    width: 28.74vw;
-    margin-top: -14.43846vw;
   }
-  .right-li {
-    margin-left: 13px;
+
+  .about-course-text {
+    font-size: 1.2rem;
   }
-  .about .bottom-content {
-    display: flex;
-    margin-top: -0.095vw;
-    position: relative;
+
+  .about-central-img {
+    margin: auto;
+    width: 17rem;
   }
-  .about .bottom-image {
+
+  .about-central-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-bottom-img {
     display: none;
   }
-  .about .bottom-content .bottom-text {
-    display: flex;
-    align-items: center;
-    column-gap: 4.444vw;
-    width: 41.733vw;
+
+  .offer {
+    width: 80%;
     flex-wrap: wrap;
-    row-gap: 1.333vw;
-  }
-  .about .bottom-content .bottom-text span {
-    font-weight: 700;
-    font-size: 2.6vw;
-    line-height: 130%;
-  }
-  .about .bottom-content .bottom-text p {
-    padding-top: 1.333vw;
-    max-width: 16.585vw;
-    font-size: 2vw;
-    line-height: 130%;
-    margin-bottom: 15px;
+    margin-top: 2rem;
   }
 
-  /* Nurlan end */
-
-  /* Nezrin start */
-
-  /* Nezrin end */
-
-  /* Hesen start */
-
-  html,
-  body {
-    overflow-x: hidden;
+  .offer-item {
+    font-size: 1rem;
   }
 
-  img {
-    width: 49.33vw;
-    height: 19.88vw;
+  .offer-item p:first-child {
+    font-size: 1.2rem;
+  }
+/* about son */
+  /* third basla */
+  .format-wrap {
+    flex-direction: column;
+    padding: 0;
+    width: 55%;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+
+  .know-list {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  /* third end  */
+
+  /* fourth start  */
+
+  .cards-wrap {
+    padding: 3rem 6.5rem 3rem 0;
+    margin-left: 6.25rem;
+  }
+
+  .card-title {
+    font-size: 1.4rem;
+  }
+
+  .card-text {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    margin: auto;
+  }
+
+  /* fourth end  */
+  /* fifth start  */
+  .graduate .container {
+    padding: 3.8rem 3.6rem 4.6rem;
+  }
+
+  .graduate-title {
+    margin-bottom: 2.5rem;
+    width: 80%;
+  }
+
+  .graduate-wrap {
+    width: 100%;
+  }
+
+  .graduate-wrap p {
+    font-size: 1rem;
+  }
+
+  .graduate-bottom {
+    margin-top: 1rem;
+  }
+
+  .bottom-text h3 {
+    font-size: 1.4rem;
+  }
+
+  /* fifth end  */
+  /* sixth startt */
+  .course-start .container {
+    padding: 6.2rem 3.6rem 6.35rem;
+  }
+
+  .course-cost p:first-of-type {
+    font-size: 1.2rem;
+  }
+
+  .course-cost p:nth-of-type(2) {
+    font-size: 3.7rem;
+  }
+
+  .cours-text {
+    width: 99%;
+  }
+
+  .cours-text-item p:first-of-type {
+    font-size: 1.2rem;
+  }
+
+  .cours-text-item p:nth-of-type(2) {
+    font-size: 1rem;
+  }
+
+  /* suxth end */
+  /* footer */
+  .footer .container {
+    padding: 2.33rem 3.6rem;
+  }
+
+  .footer-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    margin-bottom: 4.9rem;
+  }
+
+  .contacts-right {
+    font-size: 1.2rem;
+    width: 50%;
+  }
+
+  .socials img {
+    min-width: 1.6rem;
+    min-height: 1.6rem;
+  }
+
+  .contacts-right img {
+    min-width: 1.258rem;
+    min-height: 1.258rem;
   }
 
   .bottom {
-    width: 43.15vw;
-    height: 18.92vw;
+    font-size: 1rem;
   }
 
-  .program-course {
-    margin-top: 13.88vw;
-    margin-bottom: 3.47vw;
-    /* margin-left:14vw ; */
-    width: 100vw;
+  /* footer end */
+}
+
+@media (min-width: 769px) and (max-width: 1130px) {
+  html {
+    font-size: 14px;
   }
 
-  span {
-    width: 43.15vw;
+  h2 {
+    font-size: 32px;
   }
 
-  .program-course .head {
-    width: 107.3vw;
-    height: 11vw;
-    margin-left: 8.62vw;
-    margin-bottom: 8.88vw;
+  .container {
+    padding: 0 3rem;
   }
 
-  .program-course .head h1 {
-    font-size: 6.93vw;
-    line-height: 101.38%;
-    height: 11.57vw;
-    font-weight: 700;
-    font-family: "Roboto Slab", serif;
+  /* first basla */
+
+  .intro_text {
+    font-size: 0.86rem;
   }
 
-  .program-course .myitems {
-    margin-left: 25vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+  /* first end */
+
+  /* about basla */
+  .offer-item {
+    font-size: 0.78rem;
   }
 
-  .program-course .myitems .item {
-    border-radius: 30%;
+  .offer-item p:first-child {
+    font-size: 1.07rem;
   }
 
-  .program-course .myitems .item .box {
-    border-radius: 2.083vw;
-    margin-bottom: 6.083vw;
+  .about-course-text {
+    max-width: 40rem;
   }
 
-  .program-course .myitems .item .top {
-    -webkit-box-shadow: 0.0694vw 0.0694vw 1.04vw 0px #00000040;
-    box-shadow: 0.0694vw 0.0694vw 1.04vw 0px #00000040;
-    border-radius: 4.4vw;
+  /* about son */
+  /* foruth start  */
+  .cards-wrap {
+    padding: 3rem 6.5rem 3rem 0;
   }
 
-  .program-course .myitems .item .bottom {
-    padding: 0.694vw 1.3888vw;
+  .cards-item {
+    max-width: 20rem;
   }
 
-  .program-course .myitems .item .bottom h3 {
-    font-size: 3.73vw;
-    font-weight: 700;
-    font-family: "Roboto", sans-serif;
-    margin-bottom: 2.083vw;
-    width: 55vw;
-    height: 4.611vw;
+  /* fourth end  */
+  /* fifth start  */
+  .graduate .container {
+    padding: 3.8rem 3rem 4.6rem;
   }
 
-  .program-course .myitems .item .bottom span {
-    font-weight: 400;
-    /* width: 43.15vw; */
-    font-size: 3.2vw;
-    /* line-height:7.45vw; */
-    font-family: "Roboto Slab", serif;
+  .graduate-wrap {
+    max-width: 32.7rem;
   }
 
-  .program-course .myitems .item .bottom .first {
-    margin-bottom: 3vw;
-    line-height: 3.44vw;
+  /* fifth end  */
+  /* sixth start */
+  .course-start .container {
+    padding: 6.2rem 3rem 6.35rem;
   }
 
-  .myBody {
-    padding: 10vw 0 3em;
-    background: #efefef;
-    width: 100.26vw;
-    height: 112.8vw;
-    /* display: flex;
-      align-items: center; */
+  .cours-text {
+    max-width: 27rem;
   }
 
-  .myBody .myHead2 {
-    width: 68.5vw;
-    height: 18.4vw;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 6.93vw;
-    line-height: 101.38%;
-    color: #000000;
-    margin-left: 8.4vw;
-    margin-bottom: 2.93vw;
+  /* sixth end */
+  .footer .container {
+    padding: 2.33rem 3rem;
   }
 
-  .myBody .box {
-    width: 82.13vw;
-    height: 66.13vw;
-    margin-left: 8.7vw;
-    border-radius: 3.73vw;
-    padding: 1.3vw;
-    padding-left: 2.7vw;
-    -webkit-box-shadow: 1px 1px 20px 0px #00000040;
-    box-shadow: 1px 1px 20px 0px #00000040;
-    background-color: white;
-    /* margin-bottom: 14.13vw; */
-  }
-
-  .myBody .box .Up {
-    width: 70.93vw;
-    height: 29.6vw;
-    left: 11.8vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.66vw;
-    line-height: 4vw;
-    color: #000000;
-    padding-right: 0vw;
-    padding-top: 1.3vw;
-    margin-bottom: 1.04vw;
-    margin-left: 2vw;
-    margin-top: 2vw;
-  }
-
-  .myBody .box .Down {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .myBody .box .Down .myleft {
-    width: 13.19vw;
-    height: 11.7vw;
-    left: 10.4vw;
-  }
-
-  .myBody .box .Down .myleft img {
-    width: 24.33vw;
-    height: 22.4vw;
-    margin-left: 0vw;
-    /* margin-top:5.73vw; */
-    margin-bottom: 3.46vw;
-  }
-
-  .myBody .box .Down .myright {
-    margin-left: 2vw;
-  }
-
-  .myBody .box .Down .myright p {
-    width: 43.864vw;
-    height: 8.728vw;
-    /* left: 25.7vw; */
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.73vw;
-    line-height: 101.38%;
-    color: #000000;
-    margin-bottom: -0.3vw;
-    margin-top: 10.416vw;
-    margin-left: 9vw;
-  }
-
-  .myBody .box .Down .myright img {
-    width: 3.976vw;
-    height: 4.586vw;
-    /* left: 25.7vw; */
-    margin-left: 9vw;
-  }
-
-  /* BOTTOM */
-  .footerTop {
-    width: 100%;
-    height: 92.248vw;
-    background: #9dc9c8;
-    margin-top: 0vw;
-  }
-
-  .footerTopfHead {
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 6.598vw;
-    line-height: 101.38%;
-    width: 56.852vw;
-    height: 15.989vw;
-    margin-bottom: 3.75vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    color: #000000;
-  }
-
-  .textMidHead {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 3.04vw;
-    line-height: 101.38%;
-    width: 11.08vw;
-    height: 2.22vw;
-    color: #000000;
-    margin-bottom: 3.29vw;
-  }
-
-  .textMidBody {
-    width: 56.852vw;
-    height: 12.569vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 9.39vw;
-    line-height: 101.38%;
-    color: #000000;
-  }
-
-  .text1Head {
-    width: 34.77vw;
-    height: 3.78vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 3.04vw;
-    line-height: 101.38%;
-    color: #000000;
-  }
-
-  .text1Body {
-    width: 35.02vw;
-    height: 11.92vw;
-    margin-top: 1.142vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.53vw;
-    line-height: 101.38%;
-    color: #000000;
-  }
-
-  .text2Head {
-    width: 38.32vw;
-    height: 3.55vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 3.04vw;
-    color: #000000;
-    line-height: 101.38%;
-  }
-
-  .text2Body {
-    width: 35.53vw;
-    height: 9.644vw;
-    margin-top: 1.142vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.53vw;
-    line-height: 101.38%;
-    color: #000000;
-  }
-
-  .textHBH {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-
-  .footerTopBody {
-    margin-left: 8.47vw;
-  }
-
-  .textHB {
-    margin-right: 4.86vw;
-    /* margin-top:; */
-  }
-
-  .footerTop {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-
-  .insta,
-  .fb,
-  .letterW,
-  .phoneW,
-  .wk,
-  .messenger {
-    width: 2.29vw;
-    height: 2.29vw;
-  }
-
-  .bottomLogo {
-    width: 13.601vw;
-    height: 8.04vw;
-    margin-top: 5.91vw;
-    margin-left: 10.428vw;
-  }
-
-  .conn,
-  .conn1,
-  .bottomText {
-    color: white;
-  }
-
-  img.phoneW {
-    width: 3.19vw;
-    height: 3.19vw;
-    margin-right: 1.52vw;
-  }
-
-  img.letterW {
-    width: 3.19vw;
-    height: 2.12vw;
-    margin-right: 1.52vw;
-  }
-
-  .conn {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 3.04vw;
-    line-height: 101.38%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    margin-top: 12.68vw;
-  }
-
-  #conn {
-    width: 27.2vw;
-    height: 4.73vw;
-    margin-left: 2.6vw;
-  }
-
-  #conn1 {
-    width: 27.2vw;
-    height: 4.73vw;
-    margin-left: 2.6vw;
-  }
-
-  .conn1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 3.04vw;
-    line-height: 101.38%;
-    margin-top: 1.73vw;
-  }
-
-  .social {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 3.54vw;
-    margin-left: 10.42vw;
-  }
-
-  .insta,
-  .fb,
-  .wk,
-  .messenger {
-    margin-right: 1.25vw;
-    width: 3.9vw;
-    height: 3.9vw;
-  }
-
-  .footerBottom {
-    width: 100%;
-    height: 63.7vw;
-    background: #000000;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
-  .bottomRow {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
-  .bottomRowLeft {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-
-  .bottomText {
-    width: 35.78vw;
-    height: 4.82vw;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.53vw;
-    line-height: 101.38%;
-    margin-top: 10vw;
-    margin-left: 10.46vw;
-  }
-
-  .bottomRowRight {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    margin-left: 10.4vw;
-    margin-top: 3.47vw;
-  }
-
-  /* Hesen end */
 }
