@@ -335,3 +335,38 @@ h2 {
   /* about son */
 }
 
+@media (min-width: 769px) and (max-width: 1130px) {
+  html {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .container {
+    padding: 0 3rem;
+  }
+
+  /* first basla */
+
+  .intro_text {
+    font-size: 0.86rem;
+  }
+
+  /* first end */
+
+  /* about basla */
+  .offer-item {
+    font-size: 0.78rem;
+  }
+
+  .offer-item p:first-child {
+    font-size: 1.07rem;
+  }
+
+  .about-course-text {
+    max-width: 40rem;
+  }
+  /* about son */
+}
